@@ -75,8 +75,8 @@ async function locateElements(url) {
        
     // await page.waitForTimeout(300);
     
-    await page.type('#j_username', 'faridkar', {delay: 10});
-    await page.type('#j_password', 'Ganer-Baner1', {delay: 10});
+    await page.type('#j_username', '----', {delay: 10}); #hiding my username
+    await page.type('#j_password', '----', {delay: 10}); #hiding my password
     await page.click("button.input-submit");
     await page.waitForNavigation();
 
