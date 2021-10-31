@@ -12,8 +12,8 @@ async function patientconnect(url) {
     await page.waitForNavigation();
 
     await page.waitForTimeout(1000);
-    await page.type('#j_username', '', {delay: 10}); #username
-    await page.type('#j_password', '', {delay: 10}); #password
+    await page.type('#j_username', '', {delay: 10}); //username
+    await page.type('#j_password', '', {delay: 10}); //password
     await page.click("button.input-submit");
     await page.waitForNavigation();
 
